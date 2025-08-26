@@ -13,19 +13,6 @@ r1k_replication/ \
 ├── r1k_index_tracker.py       \
 └── r1k_replication_report.pdf  
 
-### Installation
-
-Clone the repository: \
-git clone https://github.com/yourusername/r1k_replication.git \
-cd r1k_replication 
-
-Create a virtual environment and install dependencies: \
-python -m venv .venv \
-source .venv/bin/activate   # Linux/Mac \
-.venv\Scripts\activate      # Windows
-
-pip install -r requirements.txt
-
 ### Usage
 
 Run the replication script: \
@@ -38,6 +25,6 @@ By default, the script: \
 	•	Evaluates performance on training and test windows \
 	•	Outputs tracking error and R² metrics
 
-### Tech Stack \
+### Tech Stack 
 	•	Python 3.10+ \
 	•	Libraries: yfinance, pandas, numpy, scikit-learn, pandas-datareader, matplotlib
